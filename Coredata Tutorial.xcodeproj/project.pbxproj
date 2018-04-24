@@ -13,6 +13,7 @@
 		2CE6511A208E007900E07B28 /* Coredata_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CE65118208E007900E07B28 /* Coredata_Tutorial.xcdatamodeld */; };
 		2CE6511C208E007900E07B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6511B208E007900E07B28 /* Assets.xcassets */; };
 		2CE6511F208E007900E07B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6511D208E007900E07B28 /* LaunchScreen.storyboard */; };
+		2CE65127208E138A00E07B28 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE65126208E138A00E07B28 /* AddPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CE6511B208E007900E07B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE6511E208E007900E07B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CE65120208E007900E07B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE65126208E138A00E07B28 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2CE65111208E007900E07B28 /* AppDelegate.swift */,
 				2CE65113208E007900E07B28 /* ViewController.swift */,
+				2CE65126208E138A00E07B28 /* AddPersonViewController.swift */,
 				2CE65115208E007900E07B28 /* Main.storyboard */,
 				2CE6511B208E007900E07B28 /* Assets.xcassets */,
 				2CE6511D208E007900E07B28 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				2CE65114208E007900E07B28 /* ViewController.swift in Sources */,
 				2CE65112208E007900E07B28 /* AppDelegate.swift in Sources */,
 				2CE6511A208E007900E07B28 /* Coredata_Tutorial.xcdatamodeld in Sources */,
+				2CE65127208E138A00E07B28 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
