@@ -45,8 +45,7 @@ class AddPersonViewController: UIViewController {
         let managedContext = appDelegate.persistentContainer.viewContext
         
         // 2
-        let entity = NSEntityDescription.entity(forEntityName: "Person", in: managedContext)!
-        let person = NSManagedObject(entity: entity, insertInto: managedContext)
+        let person = Person(context: managedContext)
         
         // 3
         person.setValue(name, forKeyPath: "name")

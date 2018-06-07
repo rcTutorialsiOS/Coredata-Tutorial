@@ -19,20 +19,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-x4-h6Y">
-                                <rect key="frame" x="0.0" y="116" width="375" height="551"/>
+                                <rect key="frame" x="0.0" y="172" width="375" height="495"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="cwg-TP-AGc"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="eEB-pt-a3e"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="d85-Z4-i9F">
+                                <rect key="frame" x="0.0" y="116" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Tzx-x4-h6Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="36H-mK-FSB"/>
+                            <constraint firstItem="d85-Z4-i9F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kgs-mU-QfJ"/>
+                            <constraint firstItem="d85-Z4-i9F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aax-sD-epl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tzx-x4-h6Y" secondAttribute="trailing" id="fbE-N9-Nmk"/>
-                            <constraint firstItem="Tzx-x4-h6Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gPb-jr-0om"/>
+                            <constraint firstItem="Tzx-x4-h6Y" firstAttribute="top" secondItem="d85-Z4-i9F" secondAttribute="bottom" id="jBW-hD-z6F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tzx-x4-h6Y" secondAttribute="bottom" id="l7W-nT-90a"/>
+                            <constraint firstItem="d85-Z4-i9F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tEA-0x-KaM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
